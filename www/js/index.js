@@ -48,6 +48,8 @@ var app = {
 		
 		var networkState = navigator.connection.type;
 		
+		alert('Connection type: networkState' + networkState);
+		
 		var states = {};
 		states[Connection.UNKNOWN]  = 'Unknown connection';
 		states[Connection.ETHERNET] = 'Ethernet connection';
